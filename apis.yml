@@ -1,7 +1,27 @@
 aid: atmosfy
 name: Atmosfy
-description: Atmosfy is a company surfaced as a portfolio company of redpoint-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Atmosfy is a live-video mapping platform that bills itself as the world's largest
+  live video map, aggregating 500M+ geo-tagged short-form videos across 100M+ places
+  in 20,000+ cities and 150+ countries. The consumer app lets people see what
+  restaurants, bars, hotels, and events actually look like in real time, while its
+  business side offers brand targeting, embedded local-video integrations for other
+  platforms, and video corpora for AI training. Surfaced as a portfolio company of
+  Redpoint Ventures and added to the API Evangelist network; as of this enrichment
+  pass Atmosfy publishes no public developer API, SDK, or developer portal, so this
+  profile captures company identity, legal/link surface, and domain-security posture.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://media-b.atmosfy.io/static/social_landing/Group_103_sh51gu.png
 url: https://raw.githubusercontent.com/api-evangelist/atmosfy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Video
+- Maps
+- Location
+- Social
+- Discovery
+- Local
+- Restaurants
+- User Generated Content
+- AI Training Data
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,18 @@ maintainers:
 common:
 - type: Website
   url: https://atmosfy.io/
+- type: TermsOfService
+  url: https://atmosfy.io/terms-of-service.html
+- type: PrivacyPolicy
+  url: https://atmosfy.io/privacy-policy.html
+- type: Support
+  url: https://go.atmosfy.io/ContactUs
+- type: DomainSecurity
+  url: security/atmosfy-domain-security.yml
+- type: WellKnown
+  url: well-known/atmosfy-well-known.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
