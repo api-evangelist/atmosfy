@@ -10,6 +10,17 @@ description: >-
   Redpoint Ventures and added to the API Evangelist network; as of this enrichment
   pass Atmosfy publishes no public developer API, SDK, or developer portal, so this
   profile captures company identity, legal/link surface, and domain-security posture.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
